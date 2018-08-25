@@ -51,6 +51,10 @@ public class GameSquare {
    public Square getSquare(SquarePosition location) {
       return squares[location.row][location.column];
    }
+   
+   public void myMethod() {
+	   System.out.println("Something");
+   }
 
 
 }
